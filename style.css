@@ -72,7 +72,7 @@ a {
   margin-right: 20px;
   margin-left: 6rem;
 }
-.nav-cart i {
+.nav-cart a {
   font-size: 30px;
   display: block;
 }
@@ -140,11 +140,14 @@ a {
   .box {
       width: 100%;
   }
+  #logo {
+    font-size: 20px;
+  }
 }
 .box:hover {
   background-color: #ffd505;
   /* border: 1px solid #ffd505; */
-  box-shadow: -25px 20px 30px rgba(0, 0, 0, 0.7);
+  box-shadow: -25px 20px 40px rgba(0, 0, 0, 0.7);
   transform: scale(1.03);
   border-color: #ffd505;
 }
@@ -192,7 +195,7 @@ a {
 
 .footer {
   position: relative;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: rgb(242, 239, 231);
   color: black;
@@ -210,7 +213,7 @@ a {
 }
 
 .footer-box-container {
-  height: 400px;
+  height: 600px;
   width: 100vw;
   display: flex;
   justify-content: center;
